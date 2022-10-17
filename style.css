@@ -40,9 +40,15 @@ header {
     justify-content: space-around;
     align-items: center;
     background-color:  #DCEAF5;
-    height: 700px;
+    height: 40vw;
+    min-height: 500px;
 }
-.bie-1 {
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.side-1 {
     display: flex;
     width: 40%;
     flex-direction: row;
@@ -52,4 +58,11 @@ header {
 .logo-1 {
     display: flex;
     justify-content: space-between;
+}
+.header_image {
+    justify-content: center;
+    align-self: flex-end;
+}
+.header_image img{
+    width: 600px;
 }
